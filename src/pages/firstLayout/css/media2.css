@@ -1,0 +1,271 @@
+@media(max-width:1300px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+/* Desktop */
+@media (max-width:1200px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media(max-width: 1130px) {
+    .container {
+        max-width: 930px;
+    }
+}
+
+/* IPAD-PRO */
+@media(max-width:1024px) {
+    .container {
+        max-width: 816px;
+    }
+
+    .col-20 {
+        width: 25%;
+    }
+}
+
+/* All-PADs */
+@media(max-width:992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 74px;
+    }
+
+    .col-2 {
+        width: 25%;
+    }
+
+    .text__zapros-1 h3 {
+        font-size: 45px;
+    }
+
+    .text__zapros-1 p {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:810px) {
+    .container {
+        max-width: 610px;
+    }
+
+    .col-20 {
+        width: 33.33333333333333%;
+    }
+}
+
+/* Galaxy TAB */
+@media(max-width:800px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .shop__container {
+        padding: 25px 0;
+    }
+
+    .shop__box p:nth-child(1) {
+        font-size: 54px;
+
+    }
+
+    .shop__box p:nth-child(2) {
+        font-size: 24px;
+    }
+
+    .shop__box p:nth-child(3) {
+        font-size: 12px;
+    }
+
+    #main {
+        background-size: cover;
+        background-position: 55% 0%;
+        display: flex;
+        align-items: center;
+    }
+
+    .main__wrap {
+        padding: 0;
+    }
+
+    #shop {
+        margin-top: -190px;
+    }
+
+    .text__zapros-1 h3 {
+        font-size: 35px;
+    }
+
+    .text__zapros-1 p {
+        font-size: 18px;
+    }
+
+    #projects h2 {
+        font-size: 35px;
+        margin-bottom: 55px;
+    }
+
+    .projects__box p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #services h2 {
+        font-size: 35px;
+    }
+
+    .services__box p {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+
+    #faq h3 {
+        font-size: 35px;
+    }
+
+    .faq__line p {
+        font-size: 20px;
+    }
+
+    .faq__answer {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    #partners h3 {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    #feedbacks h2 {
+        font-size: 35px;
+        margin-bottom: 60px;
+    }
+
+    .feedbacks__box p {
+        font-size: 13px;
+    }
+
+    #feedbacks .col-4 {
+        width: 50%;
+    }
+
+    .feedbacks__row {
+        justify-content: center;
+    }
+
+    .feedbacks__data {
+        font-size: 20px;
+    }
+
+    #contacts h2 {
+        margin-bottom: 55px;
+        font-size: 35px;
+    }
+
+    .contacts__box img {
+        width: 50px;
+    }
+    .col-2 {
+        width: 33.33333333%;
+    }
+}
+
+/* IPAD */
+@media (max-width:768px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+}
+
+/* All mobile devices start */
+@media(max-width:576px) {
+    .container {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 39px;
+    }
+
+    .main__wrap p {
+        font-size: 14px;
+    }
+
+    .shop__box p:nth-child(1) {
+        font-size: 36px;
+
+    }
+
+    .shop__box p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    #shop {
+        margin-top: -140px;
+    }
+
+    #shop .col-3{
+        width: 50%;
+    }
+
+    #feedbacks .col-4,
+    .col-3 {
+        width: 100%;
+    }
+
+    .text__zapros-1 h3 {
+        text-align: center;
+    }
+    .wrap__zapros-1 {
+        flex-direction: column;
+        row-gap: 25px;
+        justify-content: center;
+    }
+}
+
+/* Iphone - 12 */
+@media(max-width:390px) {
+    .container {
+        max-width: 290px;
+    }
+
+    .gazprom:before {
+        bottom: 85px;
+    }
+}
+
+/* Iphone - 6 */
+@media(max-width:375px) {
+    .container {
+        max-width: 276px;
+    }
+}
+
+/* galaxy fold */
+@media(max-width:280px) {
+    .container {
+        max-width: 240px;
+    }
+}
