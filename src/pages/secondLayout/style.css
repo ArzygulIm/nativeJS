@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,26 @@
 }
 
 header {
-  height: 100px;
   border-bottom: 1px solid #A1A1A1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header .header__wrap {
+  display: -ms-grid;
+  display: grid;
+  height: 100px;
+}
+header .header__wrap nav {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#main {
+  height: 100vh;
+  background-image: url("./images/Rectangle.png");
 }
