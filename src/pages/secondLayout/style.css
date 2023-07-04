@@ -25,6 +25,9 @@ header .header__wrap nav {
       -ms-grid-row-align: center;
       align-self: center;
 }
+header .header__wrap nav a:not(:last-child) {
+  margin-right: 6px;
+}
 
 #main {
   height: 100vh;

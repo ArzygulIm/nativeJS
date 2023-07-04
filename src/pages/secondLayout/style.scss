@@ -20,6 +20,12 @@ header {
         nav{
             justify-self: end;
             align-self: center;
+
+            a{
+                &:not(:last-child) {
+                    margin-right: 6px;
+                }
+            }
         }
     }
 }
