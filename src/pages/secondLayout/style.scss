@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 829px;
+    margin: 20px 0 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.09%;
+}
+
 header {
     border-bottom: 1px solid #A1A1A1;
     position: absolute;
@@ -13,24 +30,56 @@ header {
     left: 0;
     right: 0;
 
-    .header__wrap{
+    .header__wrap {
         display: grid;
         height: 100px;
-        
-        nav{
+
+        nav {
             justify-self: end;
             align-self: center;
 
-            a{
+            a {
+                color: #FFF;
+                font: normal 500 16px/normal Montserrat;
+                text-decoration: none;
+
                 &:not(:last-child) {
-                    margin-right: 6px;
+                    margin-right: 40px;
                 }
             }
         }
     }
 }
 
-#main{
+#main {
     height: 100vh;
     background-image: url("./images/Rectangle.png");
+    background-size: 100% 100%;
+
+    .main__wrap {
+        height: 100vh;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-size: 16px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        button {
+            border-radius: 30px;
+            background: var(--accent, #4985FF);
+            box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+            width: 200px;
+            height: 45px;
+            justify-self: center;
+            border: none;
+        }
+    }
 }
