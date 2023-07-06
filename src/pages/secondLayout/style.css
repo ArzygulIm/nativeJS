@@ -23,6 +23,21 @@ h1 {
   line-height: 134.09%;
 }
 
+button {
+  border-radius: 30px;
+  background: var(--accent, #4985FF);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+  width: 200px;
+  height: 45px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font: normal 500 16px/normal Montserrat;
+}
+
 header {
   border-bottom: 1px solid #A1A1A1;
   position: absolute;
@@ -69,20 +84,9 @@ header .header__wrap nav a:not(:last-child) {
 #main .main__wrap p {
   color: #FFF;
   text-align: center;
-  font-size: 16px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  font: normal 500 16px/normal Montserrat;
 }
-#main .main__wrap button {
-  border-radius: 30px;
-  background: var(--accent, #4985FF);
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-          box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-  width: 200px;
-  height: 45px;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  border: none;
+
+#services {
+  padding: 110px 0 105px;
 }

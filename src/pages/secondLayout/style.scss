@@ -23,6 +23,19 @@ h1 {
     line-height: 134.09%;
 }
 
+button {
+    border-radius: 30px;
+    background: var(--accent, #4985FF);
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    width: 200px;
+    height: 45px;
+    justify-self: center;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font: normal 500 16px/normal Montserrat;
+}
+
 header {
     border-bottom: 1px solid #A1A1A1;
     position: absolute;
@@ -65,21 +78,13 @@ header {
         p {
             color: #FFF;
             text-align: center;
-            font-size: 16px;
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-        }
-
-        button {
-            border-radius: 30px;
-            background: var(--accent, #4985FF);
-            box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-            width: 200px;
-            height: 45px;
-            justify-self: center;
-            border: none;
+            font: normal 500 16px/normal Montserrat;
         }
     }
+}
+
+#services {
+    padding: 110px 0 105px;
+
+
 }
