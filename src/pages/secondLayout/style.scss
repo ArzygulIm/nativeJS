@@ -85,6 +85,11 @@ header {
 
 #services {
     padding: 110px 0 105px;
+}
 
-
+.services {
+    &__box-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

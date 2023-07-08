@@ -90,3 +90,10 @@ header .header__wrap nav a:not(:last-child) {
 #services {
   padding: 110px 0 105px;
 }
+
+.services__box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+}
